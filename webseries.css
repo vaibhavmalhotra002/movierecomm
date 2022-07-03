@@ -1,0 +1,60 @@
+body{
+    background-color: #000000;
+}
+h1{
+    color:aliceblue ;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 12px 0px;
+    justify-content: center;
+     align-items: center;
+}
+.top{
+    margin: 2px 8px;
+    display: flex;
+    flex-direction: column;
+   width: 27%;
+   height: 100%;
+   border: 1px solid #eeebeba3;
+   background-color: aliceblue;
+   
+}
+.top img{
+    height: 100%;
+    width: 100%;
+   
+}
+.top h1,
+  .top  p{
+        padding: 4px 4px;
+        text-align: center;
+    }
+.btn{
+    background-color: #7d8dce;
+    font-size: 1.5rem;
+     color: white;
+   margin: 8px 17px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: #7d8dce;
+    background-color: rgb(131, 208, 182);
+    color: rgb(221, 95, 95);
+}
+.container #first{
+margin-top: 74px;
+}
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
